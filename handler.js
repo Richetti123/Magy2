@@ -1275,8 +1275,8 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-//this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑴𝑰𝑪𝑯𝑰𝑪𝑶𝑰𝑵𝑺`, m)
-this.sendMessage(m.chat, {text: `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑴𝑰𝑪𝑯𝑰𝑪𝑶𝑰𝑵𝑺`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' MichiBot ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}, { quoted: m })         
+//this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑴𝑨𝑮𝒀𝑪𝑶𝑰𝑵𝑺`, m)
+this.sendMessage(m.chat, {text: `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑴𝑨𝑮𝒀𝑪𝑶𝑰𝑵𝑺`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' MichiBot ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}, { quoted: m })         
 continue     
 }
 			
@@ -1346,7 +1346,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝑴𝑰𝑪𝑯𝑰𝑪𝑶𝑰𝑵𝑺 🐱 𝑮𝑨𝑺𝑻𝑨𝑫𝑶(𝑺)')  
+m.reply(+m.money + ' 𝑴𝑨𝑮𝒀𝑪𝑶𝑰𝑵𝑺 🐱 𝑮𝑨𝑺𝑻𝑨𝑫𝑶(𝑺)')  
 break
 }}} catch (e) {
 console.error(e)
