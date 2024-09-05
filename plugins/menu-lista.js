@@ -116,10 +116,6 @@ const buttonParamsJson = JSON.stringify({
 title: "VER COMANDOS",
 description: "Infórmate por medios oficiales sobre MichiBot",
 sections: [
-{ title: "ℹ️ Información", highlight_label: "Popular",
-rows: [
-{ header: "💸 Comprar", title: "🔓 Para: Todos", description: "MichiBot se mantiene funcionando gracias a que lo compran, tu tambien puedes adquirirlo", id: usedPrefix + "adquirir" }
-]},
 { title: "🔖 Atajos", highlight_label: "Nuevo",
 rows: [
 { header: "🤫 Sorteo", title: "🔐 Para: Admins", description: "Escoje un ganador al azar", id: usedPrefix + "sorteo" },
