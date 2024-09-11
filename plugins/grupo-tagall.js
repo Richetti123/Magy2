@@ -7,7 +7,7 @@ let pesan = args.join` `
 let oi = `@comu.blessed_fem ${pesan}`
 let teks = `*🩷DESPIERTEN, HAY ACTIVIDAD🩵*\n${oi}\n\n*MENCIONES:*\n`
 for (let mem of participants) {
-teks += `🩷💛 @${mem.id.split('@')[0]}\n`}
+teks += `🌟⚡ @${mem.id.split('@')[0]}\n`}
 teks += `@comunidad.td12\n@comu.blessed`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
